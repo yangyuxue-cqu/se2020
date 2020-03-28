@@ -7,7 +7,7 @@
 
 ## 界面  
 * 点击c++或者python选择代码语言  
-![avatar](F:\重庆大学\软件工程\界面.png) 
+![avatar](https://github.com/yangyuxue-cqu/se2020/blob/master/jiemian/yu.png) 
 * 选择0-5输入数字，选择c++服务项目  
 ![avatar](F:\重庆大学\软件工程\界面1.png)
 * 选择0-5输入数字，选择python服务项目  
