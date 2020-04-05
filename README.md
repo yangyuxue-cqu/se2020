@@ -5,15 +5,17 @@
 ### 界面
 * （1）点击界面的options按钮下拉隐藏的工具，包含Python Language、C++ Language和Exit选项，可对后台执行三角函数计算采用的编辑语言进行选择或执行系统退出操作。
 * （2）界面有个输入框，输入角度来计算三角函数的值（程序中会把角度自动转换为弧度来计算）。
+![image](https://github.com/yangyuxue-cqu/se2020/blob/master/math/tu1.png)
 * （3）点击界面sin，cos，tan，cot按钮，可分别计算输入变量的正弦值，余弦值，正切值和余切值。
 * （4）点击界面的清除按钮，可清除在界面窗口执行的操作；点击退出按钮，可直接退出整个界面。
-![](https://github.com/PufeiLi/se2020/raw/master/界面.png)
+![image](https://github.com/yangyuxue-cqu/se2020/blob/master/math/tu3.png)
+
 
 ### 代码
-* （1）code文件中，pch.cpp是使用c++语言实现的cos、cot、sin和tan函数，pch.h是其对应的头文件。
-* （2）code文件中，SnowC.dll是上述两个文件编译生成的Windows动态链接库文件，供python加载后调用c++方法来计算三角函数。
-* （3）code文件中，pySnow.py包括用python语言实现cos、cot、sin和tan函数。
-* （4）code文件中，main.py主要实现了三角函数运算界面显示（python语言），导入pySnow来执行python实现的三角函数，加载SnowC调用C++语言实现的三角函数。
+* （1）pch.cpp是使用c++语言实现的cos、cot、sin和tan函数，pch.h是其对应的头文件。
+* （2）SnowC.dll是上述两个文件编译生成的Windows动态链接库文件，供python加载后调用c++方法来计算三角函数。
+* （3）pySnow.py包括用python语言实现cos、cot、sin和tan函数。
+* （4）main.py主要实现了三角函数运算界面显示（python语言），导入pySnow来执行python实现的三角函数，加载SnowC.dll调用C++语言实现的三角函数。
 
 ### 后台
 * 界面尺寸、标题
